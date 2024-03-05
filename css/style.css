@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+@media (max-width:426px){
+    body{
+        align-items: start;
+        height: fit-content;
+    }
+    
+    .central{
+        flex-direction: column;
+        height: auto;
+        border-radius: 0 !important;
+    
+    }
+
+    .lado1{
+        width: 100% !important;
+        border-radius: 0 !important;
+        border-bottom-left-radius: 30px !important;
+        border-bottom-right-radius: 30px !important;
+        padding-top: 50px;
+
+    }
+
+    .lado2{
+        width: 100% !important;
+        padding-bottom: 20px;
+
+    }
+    
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Hanken Grotesk", sans-serif;
+
+}
+
+.central{
+    display: flex;
+    width: 740px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 10px rgba(128, 128, 128, 0.541);
+}
+
+.lado1{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 10px;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    border-radius: 30px;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%))
+}
+
+.bola{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.lado1 h2{
+    color: white;
+}
+
+.lado2{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.sumario{
+    height: 80px;
+    width: 80%;
+    font-size: 24px;
+    font-weight: 800;
+    align-items: center;
+    display: flex;
+    color: rgba(0, 0, 0, 0.753);
+}
+
+.reaction{
+    display: flex;
+    width: 80%;
+    border-radius: 10px;
+    background-color: hsla(0, 100%, 67%, 0.062);
+    padding: 15px;
+}
+
+.re-left{
+    width: 60%;
+    height: 100%;
+    display: block;
+    display: flex;
+    align-items: center;
+    gap:5px;
+    font-weight: bold;
+    color: hsl(0, 100%, 67%) ;
+}
+
+.re-right{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.memory{
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    display:flex ;
+    background-color: hsla(39, 100%, 56%, 0.075);
+}
+
+.me-left{
+    width: 60%;
+    height: 100%;
+    display: block;
+    display: flex;
+    align-items: center;
+    gap:5px;
+    font-weight: bold;
+    color:hsl(39, 100%, 56%) ;
+}
+
+.me-right{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.verbal{
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    background-color: hsla(166, 100%, 37%, 0.089);
+}
+
+.ve-left{
+    width: 60%;
+    height: 100%;
+    display: block;
+    display: flex;
+    align-items: center;
+    gap:5px;
+    font-weight: bold;
+    color: hsl(166, 100%, 37%);
+}
+
+.ve-right{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.visual{
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    background-color: hsla(234, 85%, 45%, 0.075);
+}
+
+.vi-left{
+    width: 60%;
+    height: 100%;
+    display: block;
+    display: flex;
+    align-items: center;
+    gap:5px;
+    font-weight: bold;
+    color: hsl(234, 85%, 45%);
+}
+
+.vi-right{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.continue{
+    display: flex;
+    width: 80%;
+    height: 50px;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.continue:hover{
+    background-color:hsl(241, 81%, 54%) ;
+    cursor: pointer;
+
+}
